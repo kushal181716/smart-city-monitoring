@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #1abc9c;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 2em 1em;
+  background: #2ecc71;
+  color: white;
+}
+
+.features, .testimonials, .contact {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #34495e;
+  color: white;
+}
